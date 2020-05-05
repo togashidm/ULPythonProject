@@ -1,17 +1,20 @@
 # ULPythonProject
 Project assignment for Data Mining at University of Limerick 
 
-Project Specs:
+## Summary:
+This project revisits some questions related to a secondary school student performance by analysing the data provided in the <a href="https://archive.ics.uci.edu/ml/datasets/Student+Performance"> UCI repository </a> . The data was collected during 2005-2006 school year from two Portuguese schools by <a href="http://www3.dsi.uminho.pt/pcortez/student.pdf">Cortez and Silva (2008)</a>.
 
-* The names and IDs of the students in your project group, which parts of the project each student has worked on, and what percentage of the whole work on the project is their contribution.
+The provided data is used to create different classification models (Decision trees, random forest, support machines, etc...) to predic and clusterring models to visualise the student performance based on the features and also identify key features that influence the student performance.
+
+## Scope:
 
 * Exploratory data analysis of the dataset.
 
 * Data preparation:
 
-  + Fill in missing values.
+  + Treat the missing values.
 
-  + Remove or transform outliers.
+  + Strategy for outliers.
 
   + Create new features from the existing ones [Optional if necessary].
 
